@@ -1,0 +1,19 @@
+body {
+    background: orange;
+}
+
+li {
+    border: 2px solid yellow
+}
+
+#programming {
+    color: #7e6c53
+}
+
+#programming {
+    background-color: pink;
+}
+
+.medication {
+    text-decoration:  line-through;
+}

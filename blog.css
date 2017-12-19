@@ -1,0 +1,60 @@
+body {
+    border: 20px solid #bdc3c7;
+    text-align: center;
+    font-family: Source Sans Pro;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    font-family: Source Sans Pro;
+}
+
+h2 {
+    color: #2c3e50;
+    font-weight: bold;
+    text-align: left;
+    font-size: 2.0rem;
+}
+
+h3 {
+    color: #3498db;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+p {
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+.post {
+    font-size: 23px;
+}
+
+.first-paragraph {
+    border-left: 5x solid red;
+}
+
+hr.style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+.post {
+    margin-bottom: 20px;
+}
